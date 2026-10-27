@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 23px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+a {
+    padding: 25px;
+    text-decoration:  none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#fff;
+}
+
+#search {
+    width: 170px;
+    height:38px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color:#6c757d;
+    position: absolute;
+    right: 120px;
+}
+
+.buscar-button {
+    width: 80px;
+    height: 37px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    border: 2px solid #fff;
+    margin-right: 23px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,54 @@
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    border: none;
+    width: 700px;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.modal-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #000;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.modal-check {
+    margin-left: 16px;
+}
+
+.close-modal {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #6C757D;
+    font-size: 18px;
+    margin-right: 24px;
+}
+
+.modal-paragraph {
+    padding: 16px 16px 32px 16px;
+}
+
+.modal-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #212529;
+}
